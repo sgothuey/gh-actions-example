@@ -18,7 +18,7 @@ jobs:
       packages: write
     defaults:
       run:
-        # Set the working directory to the java-app directory
+        # Set the working directory to te java-app directory
         # works only for the shell.
         working-directory: js-app
     steps:

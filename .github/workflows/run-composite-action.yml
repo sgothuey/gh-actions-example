@@ -1,0 +1,11 @@
+name: run-composite-action.yml
+on: workflow_dispatch
+
+jobs:
+    run-composite-action:
+        runs-on: ubuntu-latest
+        steps:
+            - uses: ./.github/actions/code-quality-java
+              with:
+                    working-directory: 'toto'
+                    skip-tests: false
