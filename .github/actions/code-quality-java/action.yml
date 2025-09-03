@@ -8,6 +8,7 @@ inputs:
   working-directory:
     required: false
     default: ''
+    description: "yolo"
 
 runs:
   using: "composite"
