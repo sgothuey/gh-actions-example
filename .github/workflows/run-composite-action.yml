@@ -8,4 +8,5 @@ jobs:
             - uses: actions/checkout@v4
             - uses: ./.github/actions/code-quality-java
               with:
+                    working-directory: 'java-app'
                     skip-tests: false
