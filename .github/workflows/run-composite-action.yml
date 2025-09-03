@@ -6,7 +6,7 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - uses: actions/checkout@v4
-            - uses: .github/actions/code-quality-java/action.yml
+            - uses: ./.github/actions/code-quality-java/action.yml@main
               with:
                     working-directory: 'toto'
                     skip-tests: false
